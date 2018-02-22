@@ -1,3 +1,3 @@
-https://dinhhau1807.github.io/namecard/
+#NameCard
 
 This is my Profile
