@@ -16,7 +16,7 @@
 		var message="NoRightClicking"; function defeatIE() {if (document.all) {(message);return false;}} function defeatNS(e) {if (document.layers||(document.getElementById&&!document.all)) { if (e.which==2||e.which==3) {(message);return false;}}} if (document.layers) {document.captureEvents(Event.MOUSEDOWN);document.onmousedown=defeatNS;} else{document.onmouseup=defeatNS;document.oncontextmenu=defeatIE;} document.oncontextmenu=new Function("return false")
 		//]]>
 		</script>
-		<!--NOF12,ViewSource,CtrlU-->
+		<!--NOF12,ViewSource,CtrlU
 		<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js'/>
 		<script type='text/javascript'>
 			checkCtrl=false $(&#39;*&#39;).keydown(function(e){
@@ -24,7 +24,7 @@
 			if(ev.keyCode==&#39;17&#39;){ checkCtrl=false } }).keydown(function(event){
 			if(checkCtrl){
 			if(event.keyCode==&#39;85&#39;){ return false; } } })
-		</script>
+		</script>-->
 		<link href="https://i.imgur.com/CkEYxds.png" rel="shortcut icon" />
 	</head>
 	<body class="is-loading" onkeydown="return false">
